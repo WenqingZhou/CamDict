@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8F794C14E12E9A001AAA9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794B14E12E9A001AAA9B /* UIKit.framework */; };
+		EF8F794E14E12E9A001AAA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794D14E12E9A001AAA9B /* Foundation.framework */; };
+		EF8F795014E12E9A001AAA9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794F14E12E9A001AAA9B /* CoreGraphics.framework */; };
+		EF8F795614E12E9B001AAA9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8F795414E12E9B001AAA9B /* InfoPlist.strings */; };
+		EF8F795814E12E9B001AAA9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F795714E12E9B001AAA9B /* main.m */; };
+		EF8F795C14E12E9B001AAA9B /* CamTranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F795B14E12E9B001AAA9B /* CamTranslatorAppDelegate.m */; };
+		EF8F796414E12E9B001AAA9B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F796314E12E9B001AAA9B /* SenTestingKit.framework */; };
+		EF8F796514E12E9B001AAA9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794B14E12E9A001AAA9B /* UIKit.framework */; };
+		EF8F796614E12E9B001AAA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794D14E12E9A001AAA9B /* Foundation.framework */; };
+		EF8F796E14E12E9B001AAA9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8F796C14E12E9B001AAA9B /* InfoPlist.strings */; };
+		EF8F797114E12E9B001AAA9B /* CamTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F797014E12E9B001AAA9B /* CamTranslatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8F796714E12E9B001AAA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8F793E14E12E9A001AAA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8F794614E12E9A001AAA9B;
+			remoteInfo = CamTranslator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8F794714E12E9A001AAA9B /* CamTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F794B14E12E9A001AAA9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF8F794D14E12E9A001AAA9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF8F794F14E12E9A001AAA9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF8F795314E12E9A001AAA9B /* CamTranslator-Info.plist */ = {isa = PBXFileReference; path = "CamTranslator-Info.plist"; sourceTree = "<group>"; };
+		EF8F795514E12E9B001AAA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF8F795714E12E9B001AAA9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF8F795914E12E9B001AAA9B /* CamTranslator-Prefix.pch */ = {isa = PBXFileReference; path = "CamTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		EF8F795A14E12E9B001AAA9B /* CamTranslatorAppDelegate.h */ = {isa = PBXFileReference; path = CamTranslatorAppDelegate.h; sourceTree = "<group>"; };
+		EF8F795B14E12E9B001AAA9B /* CamTranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamTranslatorAppDelegate.m; sourceTree = "<group>"; };
+		EF8F796214E12E9B001AAA9B /* CamTranslatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamTranslatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F796314E12E9B001AAA9B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF8F796B14E12E9B001AAA9B /* CamTranslatorTests-Info.plist */ = {isa = PBXFileReference; path = "CamTranslatorTests-Info.plist"; sourceTree = "<group>"; };
+		EF8F796D14E12E9B001AAA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF8F796F14E12E9B001AAA9B /* CamTranslatorTests.h */ = {isa = PBXFileReference; path = CamTranslatorTests.h; sourceTree = "<group>"; };
+		EF8F797014E12E9B001AAA9B /* CamTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamTranslatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8F794414E12E9A001AAA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F794C14E12E9A001AAA9B /* UIKit.framework in Frameworks */,
+				EF8F794E14E12E9A001AAA9B /* Foundation.framework in Frameworks */,
+				EF8F795014E12E9A001AAA9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F795E14E12E9B001AAA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F796414E12E9B001AAA9B /* SenTestingKit.framework in Frameworks */,
+				EF8F796514E12E9B001AAA9B /* UIKit.framework in Frameworks */,
+				EF8F796614E12E9B001AAA9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8F793C14E12E9A001AAA9B = {
+			isa = PBXGroup;
+			children = (
+				EF8F795114E12E9A001AAA9B /* CamTranslator */,
+				EF8F796914E12E9B001AAA9B /* CamTranslatorTests */,
+				EF8F794A14E12E9A001AAA9B /* Frameworks */,
+				EF8F794814E12E9A001AAA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8F794814E12E9A001AAA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F794714E12E9A001AAA9B /* CamTranslator.app */,
+				EF8F796214E12E9B001AAA9B /* CamTranslatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8F794A14E12E9A001AAA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F794B14E12E9A001AAA9B /* UIKit.framework */,
+				EF8F794D14E12E9A001AAA9B /* Foundation.framework */,
+				EF8F794F14E12E9A001AAA9B /* CoreGraphics.framework */,
+				EF8F796314E12E9B001AAA9B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF8F795114E12E9A001AAA9B /* CamTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F795A14E12E9B001AAA9B /* CamTranslatorAppDelegate.h */,
+				EF8F795B14E12E9B001AAA9B /* CamTranslatorAppDelegate.m */,
+				EF8F795214E12E9A001AAA9B /* Supporting Files */,
+			);
+			path = CamTranslator;
+			sourceTree = "<group>";
+		};
+		EF8F795214E12E9A001AAA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F795314E12E9A001AAA9B /* CamTranslator-Info.plist */,
+				EF8F795414E12E9B001AAA9B /* InfoPlist.strings */,
+				EF8F795714E12E9B001AAA9B /* main.m */,
+				EF8F795914E12E9B001AAA9B /* CamTranslator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8F796914E12E9B001AAA9B /* CamTranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F796F14E12E9B001AAA9B /* CamTranslatorTests.h */,
+				EF8F797014E12E9B001AAA9B /* CamTranslatorTests.m */,
+				EF8F796A14E12E9B001AAA9B /* Supporting Files */,
+			);
+			path = CamTranslatorTests;
+			sourceTree = "<group>";
+		};
+		EF8F796A14E12E9B001AAA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F796B14E12E9B001AAA9B /* CamTranslatorTests-Info.plist */,
+				EF8F796C14E12E9B001AAA9B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8F794614E12E9A001AAA9B /* CamTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F797414E12E9B001AAA9B /* Build configuration list for PBXNativeTarget "CamTranslator" */;
+			buildPhases = (
+				EF8F794314E12E9A001AAA9B /* Sources */,
+				EF8F794414E12E9A001AAA9B /* Frameworks */,
+				EF8F794514E12E9A001AAA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamTranslator;
+			productName = CamTranslator;
+			productReference = EF8F794714E12E9A001AAA9B /* CamTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8F796114E12E9B001AAA9B /* CamTranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F797714E12E9B001AAA9B /* Build configuration list for PBXNativeTarget "CamTranslatorTests" */;
+			buildPhases = (
+				EF8F795D14E12E9B001AAA9B /* Sources */,
+				EF8F795E14E12E9B001AAA9B /* Frameworks */,
+				EF8F795F14E12E9B001AAA9B /* Resources */,
+				EF8F796014E12E9B001AAA9B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8F796814E12E9B001AAA9B /* PBXTargetDependency */,
+			);
+			name = CamTranslatorTests;
+			productName = CamTranslatorTests;
+			productReference = EF8F796214E12E9B001AAA9B /* CamTranslatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8F793E14E12E9A001AAA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "university of helsinki";
+			};
+			buildConfigurationList = EF8F794114E12E9A001AAA9B /* Build configuration list for PBXProject "CamTranslator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF8F793C14E12E9A001AAA9B;
+			productRefGroup = EF8F794814E12E9A001AAA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8F794614E12E9A001AAA9B /* CamTranslator */,
+				EF8F796114E12E9B001AAA9B /* CamTranslatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8F794514E12E9A001AAA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F795614E12E9B001AAA9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F795F14E12E9B001AAA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F796E14E12E9B001AAA9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF8F796014E12E9B001AAA9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8F794314E12E9A001AAA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F795814E12E9B001AAA9B /* main.m in Sources */,
+				EF8F795C14E12E9B001AAA9B /* CamTranslatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F795D14E12E9B001AAA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F797114E12E9B001AAA9B /* CamTranslatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8F796814E12E9B001AAA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8F794614E12E9A001AAA9B /* CamTranslator */;
+			targetProxy = EF8F796714E12E9B001AAA9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8F795414E12E9B001AAA9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8F795514E12E9B001AAA9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF8F796C14E12E9B001AAA9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8F796D14E12E9B001AAA9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8F797214E12E9B001AAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF8F797314E12E9B001AAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8F797514E12E9B001AAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamTranslator/CamTranslator-Prefix.pch";
+				INFOPLIST_FILE = "CamTranslator/CamTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF8F797614E12E9B001AAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamTranslator/CamTranslator-Prefix.pch";
+				INFOPLIST_FILE = "CamTranslator/CamTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF8F797814E12E9B001AAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CamTranslator.app/CamTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamTranslator/CamTranslator-Prefix.pch";
+				INFOPLIST_FILE = "CamTranslatorTests/CamTranslatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EF8F797914E12E9B001AAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CamTranslator.app/CamTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamTranslator/CamTranslator-Prefix.pch";
+				INFOPLIST_FILE = "CamTranslatorTests/CamTranslatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8F794114E12E9A001AAA9B /* Build configuration list for PBXProject "CamTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F797214E12E9B001AAA9B /* Debug */,
+				EF8F797314E12E9B001AAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8F797414E12E9B001AAA9B /* Build configuration list for PBXNativeTarget "CamTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F797514E12E9B001AAA9B /* Debug */,
+				EF8F797614E12E9B001AAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF8F797714E12E9B001AAA9B /* Build configuration list for PBXNativeTarget "CamTranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F797814E12E9B001AAA9B /* Debug */,
+				EF8F797914E12E9B001AAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8F793E14E12E9A001AAA9B /* Project object */;
+}
