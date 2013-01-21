@@ -20,10 +20,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentPath = ([documentPaths count] > 0) ? [documentPaths objectAtIndex:0] : nil;
+    
+    NSString *dataPath = [documentPath stringByAppendingPathComponent:@"tessdata"];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    // If the expected store doesn't exist, copy the default store.
+    if (![fileManager fileExistsAtPath:dataPath]) {
+        // get the path to the app bundle (with the tessdata dir)
+        NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+        NSString *tessdataPath = [bundlePath stringByAppendingPathComponent:@"tessdata"];
+        if (tessdataPath) {
+            [fileManager copyItemAtPath:tessdataPath toPath:dataPath error:NULL];
+        }
+    }
+    
+    setenv("TESSDATA_PREFIX", [[documentPath stringByAppendingString:@"/"] UTF8String], 1);
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    RealTimeImagePicker *realTimePicker=[[RealTimeImagePicker alloc] init];
+    [self.window addSubview:realTimePicker.view];
+    
     return YES;
 }
 

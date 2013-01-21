@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF73DA7E14E13B010032D5F7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DA7D14E13B010032D5F7 /* CoreVideo.framework */; };
+		EF73DA8114E13B0E0032D5F7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DA8014E13B0E0032D5F7 /* CoreMedia.framework */; };
+		EF73DA8314E13B180032D5F7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DA8214E13B180032D5F7 /* CoreImage.framework */; };
+		EF73DA8514E13B360032D5F7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DA8414E13B360032D5F7 /* ImageIO.framework */; };
+		EF73DAD614E259470032D5F7 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DAD414E259470032D5F7 /* liblept.a */; };
+		EF73DAD714E259470032D5F7 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DAD514E259470032D5F7 /* libtesseract_all.a */; };
+		EF73DADC14E25A710032D5F7 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = EF73DADB14E25A710032D5F7 /* tessdata */; };
+		EF73DAE114E26A880032D5F7 /* focus.png in Resources */ = {isa = PBXBuildFile; fileRef = EF73DAE014E26A880032D5F7 /* focus.png */; };
+		EF73DAF314E26FB10032D5F7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DAF214E26FB10032D5F7 /* CoreFoundation.framework */; };
+		EF73DAF614E2713B0032D5F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73DAF514E2713B0032D5F7 /* QuartzCore.framework */; };
+		EF73DAF814E273D90032D5F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794F14E12E9A001AAA9B /* CoreGraphics.framework */; };
+		EF73DAFB14E292710032D5F7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EF73DAFA14E292710032D5F7 /* MBProgressHUD.m */; };
+		EF73DB0D14E2A4750032D5F7 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = EF73DB0C14E2A4750032D5F7 /* test.png */; };
+		EF73DB1314E2AA330032D5F7 /* Utilites.m in Sources */ = {isa = PBXBuildFile; fileRef = EF73DB1214E2AA330032D5F7 /* Utilites.m */; };
 		EF8F794C14E12E9A001AAA9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794B14E12E9A001AAA9B /* UIKit.framework */; };
 		EF8F794E14E12E9A001AAA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794D14E12E9A001AAA9B /* Foundation.framework */; };
-		EF8F795014E12E9A001AAA9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794F14E12E9A001AAA9B /* CoreGraphics.framework */; };
 		EF8F795614E12E9B001AAA9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8F795414E12E9B001AAA9B /* InfoPlist.strings */; };
 		EF8F795814E12E9B001AAA9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F795714E12E9B001AAA9B /* main.m */; };
 		EF8F795C14E12E9B001AAA9B /* CamTranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F795B14E12E9B001AAA9B /* CamTranslatorAppDelegate.m */; };
@@ -18,6 +31,9 @@
 		EF8F796614E12E9B001AAA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F794D14E12E9A001AAA9B /* Foundation.framework */; };
 		EF8F796E14E12E9B001AAA9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8F796C14E12E9B001AAA9B /* InfoPlist.strings */; };
 		EF8F797114E12E9B001AAA9B /* CamTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F797014E12E9B001AAA9B /* CamTranslatorTests.m */; };
+		EF8F797C14E130A4001AAA9B /* RealTimeImagePicker.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF8F797B14E130A4001AAA9B /* RealTimeImagePicker.mm */; };
+		EF8F797F14E130EC001AAA9B /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F797E14E130EC001AAA9B /* CaptureSessionManager.m */; };
+		EF8F798114E1312D001AAA9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F798014E1312D001AAA9B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +47,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF73DA7D14E13B010032D5F7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EF73DA8014E13B0E0032D5F7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EF73DA8214E13B180032D5F7 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		EF73DA8414E13B360032D5F7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EF73DAA914E259470032D5F7 /* allheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		EF73DAAA14E259470032D5F7 /* alltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alltypes.h; sourceTree = "<group>"; };
+		EF73DAAB14E259470032D5F7 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		EF73DAAC14E259470032D5F7 /* arrayaccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrayaccess.h; sourceTree = "<group>"; };
+		EF73DAAD14E259470032D5F7 /* bbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbuffer.h; sourceTree = "<group>"; };
+		EF73DAAE14E259470032D5F7 /* bmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmf.h; sourceTree = "<group>"; };
+		EF73DAAF14E259470032D5F7 /* bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmp.h; sourceTree = "<group>"; };
+		EF73DAB014E259470032D5F7 /* ccbord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccbord.h; sourceTree = "<group>"; };
+		EF73DAB114E259470032D5F7 /* dewarp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dewarp.h; sourceTree = "<group>"; };
+		EF73DAB214E259470032D5F7 /* endianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endianness.h; sourceTree = "<group>"; };
+		EF73DAB314E259470032D5F7 /* environ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = environ.h; sourceTree = "<group>"; };
+		EF73DAB414E259470032D5F7 /* freetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freetype.h; sourceTree = "<group>"; };
+		EF73DAB514E259470032D5F7 /* gplot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gplot.h; sourceTree = "<group>"; };
+		EF73DAB614E259470032D5F7 /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+		EF73DAB714E259470032D5F7 /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageio.h; sourceTree = "<group>"; };
+		EF73DAB814E259470032D5F7 /* jbclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbclass.h; sourceTree = "<group>"; };
+		EF73DAB914E259470032D5F7 /* leptprotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leptprotos.h; sourceTree = "<group>"; };
+		EF73DABA14E259470032D5F7 /* leptwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leptwin.h; sourceTree = "<group>"; };
+		EF73DABB14E259470032D5F7 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		EF73DABC14E259470032D5F7 /* morph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morph.h; sourceTree = "<group>"; };
+		EF73DABD14E259470032D5F7 /* pix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pix.h; sourceTree = "<group>"; };
+		EF73DABE14E259470032D5F7 /* ptra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptra.h; sourceTree = "<group>"; };
+		EF73DABF14E259470032D5F7 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		EF73DAC014E259470032D5F7 /* readbarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readbarcode.h; sourceTree = "<group>"; };
+		EF73DAC114E259470032D5F7 /* regutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regutils.h; sourceTree = "<group>"; };
+		EF73DAC214E259470032D5F7 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		EF73DAC314E259470032D5F7 /* sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sudoku.h; sourceTree = "<group>"; };
+		EF73DAC414E259470032D5F7 /* watershed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = watershed.h; sourceTree = "<group>"; };
+		EF73DAC614E259470032D5F7 /* apitypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apitypes.h; sourceTree = "<group>"; };
+		EF73DAC714E259470032D5F7 /* baseapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseapi.h; sourceTree = "<group>"; };
+		EF73DAC814E259470032D5F7 /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
+		EF73DAC914E259470032D5F7 /* genericvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericvector.h; sourceTree = "<group>"; };
+		EF73DACA14E259470032D5F7 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		EF73DACB14E259470032D5F7 /* host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = host.h; sourceTree = "<group>"; };
+		EF73DACC14E259470032D5F7 /* ndminx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ndminx.h; sourceTree = "<group>"; };
+		EF73DACD14E259470032D5F7 /* ocrclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrclass.h; sourceTree = "<group>"; };
+		EF73DACE14E259470032D5F7 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		EF73DACF14E259470032D5F7 /* publictypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publictypes.h; sourceTree = "<group>"; };
+		EF73DAD014E259470032D5F7 /* tesscallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesscallback.h; sourceTree = "<group>"; };
+		EF73DAD114E259470032D5F7 /* thresholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thresholder.h; sourceTree = "<group>"; };
+		EF73DAD214E259470032D5F7 /* unichar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unichar.h; sourceTree = "<group>"; };
+		EF73DAD414E259470032D5F7 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
+		EF73DAD514E259470032D5F7 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
+		EF73DADB14E25A710032D5F7 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		EF73DAE014E26A880032D5F7 /* focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = focus.png; sourceTree = "<group>"; };
+		EF73DAF214E26FB10032D5F7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EF73DAF514E2713B0032D5F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF73DAF914E292710032D5F7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EF73DAFA14E292710032D5F7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EF73DB0C14E2A4750032D5F7 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		EF73DB1114E2AA330032D5F7 /* Utilites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilites.h; sourceTree = "<group>"; };
+		EF73DB1214E2AA330032D5F7 /* Utilites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilites.m; sourceTree = "<group>"; };
 		EF8F794714E12E9A001AAA9B /* CamTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8F794B14E12E9A001AAA9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF8F794D14E12E9A001AAA9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF8F794F14E12E9A001AAA9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EF8F795314E12E9A001AAA9B /* CamTranslator-Info.plist */ = {isa = PBXFileReference; path = "CamTranslator-Info.plist"; sourceTree = "<group>"; };
+		EF8F795314E12E9A001AAA9B /* CamTranslator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CamTranslator-Info.plist"; sourceTree = "<group>"; };
 		EF8F795514E12E9B001AAA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF8F795714E12E9B001AAA9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF8F795914E12E9B001AAA9B /* CamTranslator-Prefix.pch */ = {isa = PBXFileReference; path = "CamTranslator-Prefix.pch"; sourceTree = "<group>"; };
-		EF8F795A14E12E9B001AAA9B /* CamTranslatorAppDelegate.h */ = {isa = PBXFileReference; path = CamTranslatorAppDelegate.h; sourceTree = "<group>"; };
+		EF8F795914E12E9B001AAA9B /* CamTranslator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CamTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		EF8F795A14E12E9B001AAA9B /* CamTranslatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CamTranslatorAppDelegate.h; sourceTree = "<group>"; };
 		EF8F795B14E12E9B001AAA9B /* CamTranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamTranslatorAppDelegate.m; sourceTree = "<group>"; };
 		EF8F796214E12E9B001AAA9B /* CamTranslatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamTranslatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8F796314E12E9B001AAA9B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EF8F796B14E12E9B001AAA9B /* CamTranslatorTests-Info.plist */ = {isa = PBXFileReference; path = "CamTranslatorTests-Info.plist"; sourceTree = "<group>"; };
+		EF8F796B14E12E9B001AAA9B /* CamTranslatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CamTranslatorTests-Info.plist"; sourceTree = "<group>"; };
 		EF8F796D14E12E9B001AAA9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF8F796F14E12E9B001AAA9B /* CamTranslatorTests.h */ = {isa = PBXFileReference; path = CamTranslatorTests.h; sourceTree = "<group>"; };
+		EF8F796F14E12E9B001AAA9B /* CamTranslatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CamTranslatorTests.h; sourceTree = "<group>"; };
 		EF8F797014E12E9B001AAA9B /* CamTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamTranslatorTests.m; sourceTree = "<group>"; };
+		EF8F797A14E130A4001AAA9B /* RealTimeImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeImagePicker.h; sourceTree = "<group>"; };
+		EF8F797B14E130A4001AAA9B /* RealTimeImagePicker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RealTimeImagePicker.mm; sourceTree = "<group>"; };
+		EF8F797D14E130EC001AAA9B /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		EF8F797E14E130EC001AAA9B /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		EF8F798014E1312D001AAA9B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +131,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF73DAF814E273D90032D5F7 /* CoreGraphics.framework in Frameworks */,
+				EF73DAF614E2713B0032D5F7 /* QuartzCore.framework in Frameworks */,
+				EF73DAF314E26FB10032D5F7 /* CoreFoundation.framework in Frameworks */,
+				EF73DA8514E13B360032D5F7 /* ImageIO.framework in Frameworks */,
+				EF73DA8314E13B180032D5F7 /* CoreImage.framework in Frameworks */,
+				EF73DA8114E13B0E0032D5F7 /* CoreMedia.framework in Frameworks */,
+				EF73DA7E14E13B010032D5F7 /* CoreVideo.framework in Frameworks */,
+				EF8F798114E1312D001AAA9B /* AVFoundation.framework in Frameworks */,
 				EF8F794C14E12E9A001AAA9B /* UIKit.framework in Frameworks */,
 				EF8F794E14E12E9A001AAA9B /* Foundation.framework in Frameworks */,
-				EF8F795014E12E9A001AAA9B /* CoreGraphics.framework in Frameworks */,
+				EF73DAD614E259470032D5F7 /* liblept.a in Frameworks */,
+				EF73DAD714E259470032D5F7 /* libtesseract_all.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +159,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF73DAA614E259470032D5F7 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				EF73DAA714E259470032D5F7 /* include */,
+				EF73DAD314E259470032D5F7 /* lib */,
+			);
+			path = dependencies;
+			sourceTree = "<group>";
+		};
+		EF73DAA714E259470032D5F7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EF73DAA814E259470032D5F7 /* leptonica */,
+				EF73DAC514E259470032D5F7 /* tesseract */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EF73DAA814E259470032D5F7 /* leptonica */ = {
+			isa = PBXGroup;
+			children = (
+				EF73DAA914E259470032D5F7 /* allheaders.h */,
+				EF73DAAA14E259470032D5F7 /* alltypes.h */,
+				EF73DAAB14E259470032D5F7 /* array.h */,
+				EF73DAAC14E259470032D5F7 /* arrayaccess.h */,
+				EF73DAAD14E259470032D5F7 /* bbuffer.h */,
+				EF73DAAE14E259470032D5F7 /* bmf.h */,
+				EF73DAAF14E259470032D5F7 /* bmp.h */,
+				EF73DAB014E259470032D5F7 /* ccbord.h */,
+				EF73DAB114E259470032D5F7 /* dewarp.h */,
+				EF73DAB214E259470032D5F7 /* endianness.h */,
+				EF73DAB314E259470032D5F7 /* environ.h */,
+				EF73DAB414E259470032D5F7 /* freetype.h */,
+				EF73DAB514E259470032D5F7 /* gplot.h */,
+				EF73DAB614E259470032D5F7 /* heap.h */,
+				EF73DAB714E259470032D5F7 /* imageio.h */,
+				EF73DAB814E259470032D5F7 /* jbclass.h */,
+				EF73DAB914E259470032D5F7 /* leptprotos.h */,
+				EF73DABA14E259470032D5F7 /* leptwin.h */,
+				EF73DABB14E259470032D5F7 /* list.h */,
+				EF73DABC14E259470032D5F7 /* morph.h */,
+				EF73DABD14E259470032D5F7 /* pix.h */,
+				EF73DABE14E259470032D5F7 /* ptra.h */,
+				EF73DABF14E259470032D5F7 /* queue.h */,
+				EF73DAC014E259470032D5F7 /* readbarcode.h */,
+				EF73DAC114E259470032D5F7 /* regutils.h */,
+				EF73DAC214E259470032D5F7 /* stack.h */,
+				EF73DAC314E259470032D5F7 /* sudoku.h */,
+				EF73DAC414E259470032D5F7 /* watershed.h */,
+			);
+			path = leptonica;
+			sourceTree = "<group>";
+		};
+		EF73DAC514E259470032D5F7 /* tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				EF73DAC614E259470032D5F7 /* apitypes.h */,
+				EF73DAC714E259470032D5F7 /* baseapi.h */,
+				EF73DAC814E259470032D5F7 /* errcode.h */,
+				EF73DAC914E259470032D5F7 /* genericvector.h */,
+				EF73DACA14E259470032D5F7 /* helpers.h */,
+				EF73DACB14E259470032D5F7 /* host.h */,
+				EF73DACC14E259470032D5F7 /* ndminx.h */,
+				EF73DACD14E259470032D5F7 /* ocrclass.h */,
+				EF73DACE14E259470032D5F7 /* platform.h */,
+				EF73DACF14E259470032D5F7 /* publictypes.h */,
+				EF73DAD014E259470032D5F7 /* tesscallback.h */,
+				EF73DAD114E259470032D5F7 /* thresholder.h */,
+				EF73DAD214E259470032D5F7 /* unichar.h */,
+			);
+			path = tesseract;
+			sourceTree = "<group>";
+		};
+		EF73DAD314E259470032D5F7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EF73DAD414E259470032D5F7 /* liblept.a */,
+				EF73DAD514E259470032D5F7 /* libtesseract_all.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		EF8F793C14E12E9A001AAA9B = {
 			isa = PBXGroup;
 			children = (
+				EF73DAF514E2713B0032D5F7 /* QuartzCore.framework */,
+				EF73DAF214E26FB10032D5F7 /* CoreFoundation.framework */,
+				EF73DADB14E25A710032D5F7 /* tessdata */,
+				EF73DAA614E259470032D5F7 /* dependencies */,
+				EF73DA8414E13B360032D5F7 /* ImageIO.framework */,
+				EF73DA8214E13B180032D5F7 /* CoreImage.framework */,
+				EF73DA8014E13B0E0032D5F7 /* CoreMedia.framework */,
+				EF73DA7D14E13B010032D5F7 /* CoreVideo.framework */,
+				EF8F798014E1312D001AAA9B /* AVFoundation.framework */,
 				EF8F795114E12E9A001AAA9B /* CamTranslator */,
 				EF8F796914E12E9B001AAA9B /* CamTranslatorTests */,
 				EF8F794A14E12E9A001AAA9B /* Frameworks */,
@@ -106,9 +283,19 @@
 		EF8F795114E12E9A001AAA9B /* CamTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				EF73DAF914E292710032D5F7 /* MBProgressHUD.h */,
+				EF73DAFA14E292710032D5F7 /* MBProgressHUD.m */,
 				EF8F795A14E12E9B001AAA9B /* CamTranslatorAppDelegate.h */,
 				EF8F795B14E12E9B001AAA9B /* CamTranslatorAppDelegate.m */,
+				EF8F797A14E130A4001AAA9B /* RealTimeImagePicker.h */,
+				EF8F797B14E130A4001AAA9B /* RealTimeImagePicker.mm */,
+				EF8F797D14E130EC001AAA9B /* CaptureSessionManager.h */,
+				EF8F797E14E130EC001AAA9B /* CaptureSessionManager.m */,
+				EF73DAE014E26A880032D5F7 /* focus.png */,
+				EF73DB0C14E2A4750032D5F7 /* test.png */,
 				EF8F795214E12E9A001AAA9B /* Supporting Files */,
+				EF73DB1114E2AA330032D5F7 /* Utilites.h */,
+				EF73DB1214E2AA330032D5F7 /* Utilites.m */,
 			);
 			path = CamTranslator;
 			sourceTree = "<group>";
@@ -215,6 +402,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8F795614E12E9B001AAA9B /* InfoPlist.strings in Resources */,
+				EF73DADC14E25A710032D5F7 /* tessdata in Resources */,
+				EF73DAE114E26A880032D5F7 /* focus.png in Resources */,
+				EF73DB0D14E2A4750032D5F7 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +441,10 @@
 			files = (
 				EF8F795814E12E9B001AAA9B /* main.m in Sources */,
 				EF8F795C14E12E9B001AAA9B /* CamTranslatorAppDelegate.m in Sources */,
+				EF8F797C14E130A4001AAA9B /* RealTimeImagePicker.mm in Sources */,
+				EF8F797F14E130EC001AAA9B /* CaptureSessionManager.m in Sources */,
+				EF73DAFB14E292710032D5F7 /* MBProgressHUD.m in Sources */,
+				EF73DB1314E2AA330032D5F7 /* Utilites.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +534,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CamTranslator/CamTranslator-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CamTranslator/CamTranslator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CamTranslator\"",
+					"\"$(SRCROOT)/dependencies/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -351,7 +551,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CamTranslator/CamTranslator-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CamTranslator/CamTranslator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CamTranslator\"",
+					"\"$(SRCROOT)/dependencies/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,6 +616,7 @@
 				EF8F797614E12E9B001AAA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF8F797714E12E9B001AAA9B /* Build configuration list for PBXNativeTarget "CamTranslatorTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +625,7 @@
 				EF8F797914E12E9B001AAA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

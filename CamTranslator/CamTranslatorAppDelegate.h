@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RealTimeImagePicker.h"
 
 @interface CamTranslatorAppDelegate : UIResponder <UIApplicationDelegate>
 
